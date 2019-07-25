@@ -109,6 +109,14 @@ export default function () {
         toggles.on('click', (e) => {
             let el = $(e.currentTarget);
             let type = el.data('type');
+            
+            if (type == 'auto') {
+              let referencePoints = [
+                  '',
+                  center,
+              ];
+              multiRoute.model.setReferencePoints(referencePoints);
+            }
 
             multiRoute.model.setParams({
                 routingMode: type
