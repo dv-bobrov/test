@@ -22,7 +22,7 @@
   "dependencies": {
     "nouislider": "^11.1.0",
     "object-fit-images": "^3.2.4",
-    "swiper": "^4.1.6",
+    "swiper": "^6.5.1",
     "tablesort": "^5.0.2",
     "wnumb": "^1.1.0"
   }
